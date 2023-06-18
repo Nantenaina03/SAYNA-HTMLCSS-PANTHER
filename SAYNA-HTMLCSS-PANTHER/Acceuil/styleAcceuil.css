@@ -1,0 +1,340 @@
+@font-face {
+    font-family: 'beyno';
+    src: url(../Police/BEYNO/BEYNO.ttf);
+}
+@font-face {
+    font-family: 'cantarell';
+    src: url(../Police/Cantarell/Cantarell-Regular.ttf);
+}
+@font-face {
+    font-family: 'panthera';
+    src: url(../Police/Panthera/panthera.ttf);
+}
+@font-face {
+    font-family: 'wakanda';
+    src: url(../Police/Wakanda/wakanda.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+body{
+    background-image: url("../Illustrations + Logo/All pages/arrière_plan.png");
+    color: white;
+    font-family: 'cantarell';
+    font-size: 16px;
+}
+h1{
+    font-family: 'panthera';
+    font-size: 68px;
+    color: #9e91b7;
+}
+h2{
+    font-family: 'beyno';
+    font-size: 32px;
+    color: #9e91b7;
+    margin: 15px 0;
+}
+
+/*--------------- HEADER ---------------*/
+nav{
+    display: flex;
+}
+.logonav{
+    display: flex;
+    padding: 35px;
+}
+.logonav:hover{
+    -webkit-filter: invert(100%) sepia(100%) saturate(1680%) hue-rotate(270deg) brightness(100%) contrast(104%);
+            filter: invert(100%) sepia(100%) saturate(1680%) hue-rotate(270deg) brightness(100%) contrast(104%);
+}
+.X{
+    margin: 12px 8px;
+}
+.pages{
+    display: flex;
+    justify-content: space-between;
+    margin: 38px 55%;
+}
+.navAccueil, .navWakanda, .navEnigme{
+    margin: 0 15%;
+    color: white;
+    text-decoration: none;
+    font-family: 'beyno';
+    font-size: 21px;
+}
+.navWakanda:hover, .navEnigme:hover{
+    text-decoration: underline;
+}
+.navAccueil{
+    color: #9e91b7;
+    text-decoration: underline;
+}
+
+/*--------------- RESEAUX SOCIAUX ---------------*/
+.page-container{
+    position: relative;
+}
+.page-container::before,.page-container::after {
+  position: fixed;
+  top: 0;
+  width: 3px;
+  background-color: #9e91b7;
+}
+.page-container::before {
+  left: 55px;
+  height: 60%;
+}
+.page-container::after {
+  left: 80px;
+  height: 41%;
+}
+.reseauxSociaux{
+    display: block;
+    position: fixed;
+    left: 3.7%;
+    top: 41.5%;
+}
+.icon_facebook, .icon_instagram, .icon_twitter, .icon_tiktok{
+    margin: 10px 0;
+}
+.icon_facebook:hover, .icon_instagram:hover, .icon_twitter:hover, .icon_tiktok:hover{
+    -webkit-filter: invert(100%) sepia(100%) saturate(1680%) hue-rotate(352deg) brightness(0%) contrast(104%);
+            filter: invert(100%) sepia(100%) saturate(1680%) hue-rotate(352deg) brightness(0%) contrast(104%);
+}
+
+/*--------------- HERO ---------------*/
+.grandTitre{
+    width: 30%;
+    height: 200px;
+    margin-top: 180px;
+    margin-left: 13%;
+}
+.grandTitre a{
+    color: white;
+}
+.photoHero{
+    position: absolute;
+    left: 38%;
+    top: 2%;
+}
+
+/*--------------- FILM ---------------*/
+.filmSlide{
+    background-color: #021740;
+    overflow: auto;
+    margin-top: 20%;
+    margin-right: 0px;
+    margin-left: 10%;
+}
+.box{
+    float: left;
+    height: 345.5px;
+}
+.box1 {
+    width: 27%;
+}  
+.box2 {
+    width: 20%;
+}  
+.box3 {
+    width: 19%;
+}  
+.box4 {
+    width: 20%;
+}  
+.box5 {
+    width: 12.6%;
+}
+.box a{
+    color: white;
+}
+.deborde{
+    position: absolute;
+    top: 17%;
+    left: 220px;
+}
+.boxContenu{
+    width: 90%;
+}
+
+/*--------------- CONTENU ---------------*/
+#contenu{
+    margin: 100px 0;
+}
+.contenuTexte{
+    float: left;
+    height: 1700px;
+    width: 70%;
+}
+.texte{
+    margin: 30px 150px;
+}
+.texte p{
+    width: 99%;
+}
+.contenuPhoto{
+    float: right;
+    height: 1700px;
+    width: 30%;
+}
+.aPropos{
+    background-color: #ffffff;
+    color: #021740;
+    margin: 50% 1% 0 1%;
+    top: 50%;
+    height: 800px;
+    border-radius: 10px;
+}
+.panther5{
+    position: absolute;
+    top: 26.5%;
+    right: 9.8%;
+}
+.plusPrecis{
+   padding: 65% 8%;
+}
+.plusPrecis button{
+    background-color: #3d2da6;
+    color: #ffffff;
+    padding: 3% 6%;
+    margin: 20px 3px;
+    border: none;
+    border-radius: 10px;
+}
+.plusPrecis span{
+    font-size: 13px;
+}
+.plusPrecis p{
+    margin: 8px 0;
+}
+h5{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 8px;
+}
+.panther6{
+    position: relative;
+    margin: 30% 0;
+}
+
+
+/*--------------- FORMULAIRE ---------------*/
+#formulaire{
+    color: #021740;
+}
+.texteForm{
+    background: linear-gradient(
+        180deg, #ffffff, #ffffff23);
+    background: -moz-repeating-linear-gradient(180deg, #ffffff 2%, #3d2da6 90%);
+    border-radius: 19%;
+    height: 650px;
+    width: 45%;
+    margin-left: 20%;
+    position: absolute;
+    top: 67%;
+}
+.contactezNous{
+    padding-top: 70px;
+}
+.contactezNous p{
+    font-size: 18px;
+    text-align: center;
+}
+h3{
+    font-size: 45px;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input[type='text']{
+    background-color: transparent;
+    margin: 5px 0;
+    border-radius: 38px;
+    border-color: #021740;
+    width: 520px;
+    height: 56px;
+    margin-left: 22%;
+}
+input[type='textarea']{
+    background-color: transparent;
+    margin: 20px;
+    border-radius: 38px;
+    border-color: #021740;
+    width: 520px;
+    height: 200px;
+    margin-left: 22%;
+}
+input[type='textarea']:hover, input[type='text']:hover{
+    box-shadow: #021740 0px 0px 20px;
+}
+input[type='submit']{
+    background-color: #ffffff;
+    width: 174px;
+    height: 54px;
+    border-radius: 38px;
+    margin-left: 42%;
+    border: none;
+}
+input[type='submit']:hover{
+    box-shadow: #021740 0px 0px 20px;
+}
+
+/*--------------- FOOTER ---------------*/
+#footer{
+    color: white;
+    background-image: url("../Illustrations + Logo/All pages/back_footer.png");
+    height: 690px;
+    position:center;
+    margin-top: 50px;
+}
+.gauche{
+    float: left;
+    width: 40%;
+    height: 600px;
+}
+.bulles{
+    position: relative;
+    top: 32%;
+    left: 40%;
+}
+.droite{
+    float: right;
+    width: 60%;
+    height: 600px;
+    display: block;
+}
+h4{
+    margin: 30px 00px;
+}
+.pagesFooter{
+    float: left;
+    margin: 170px;
+}
+.aProposFooter, .wakandaFooter{
+    color: white;
+    text-decoration: none;
+}
+.aProposFooter:hover, .wakandaFooter:hover{
+    text-decoration: underline;
+}
+.retrouvez-nous{
+    float: right;
+    margin: 170px 0px;
+}
+.iconFooter{
+    margin: 0 10px;
+}
+.politique{
+    clear: both;
+    margin-left: 170px;
+}

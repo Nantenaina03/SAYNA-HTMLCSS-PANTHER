@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'beyno';
+    src: url(../Police/BEYNO/BEYNO.ttf);
+}
+@font-face {
+    font-family: 'cantarell';
+    src: url(../Police/Cantarell/Cantarell-Regular.ttf);
+}
+@font-face {
+    font-family: 'panthera';
+    src: url(../Police/Panthera/panthera.ttf);
+}
+@font-face {
+    font-family: 'wakanda';
+    src: url(../Police/Wakanda/wakanda.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+body{
+    background-image: url("../Illustrations + Logo/All pages/arrière_plan.png");
+    color: white;
+    font-family: 'cantarell';
+    font-size: 16px;
+}
+h1{
+    font-family: 'panthera';
+    font-size: 68px;
+    color: #9e91b7;
+    margin: 25px 0;
+}
+h2{
+    font-family: 'beyno';
+    font-size: 32px;
+    color: #9e91b7;
+    margin: 15px 0;
+}
+
+/*--------------- HEADER ---------------*/
+nav{
+    display: flex;
+}
+.logonav{
+    display: flex;
+    padding: 35px;
+}
+.X{
+    margin: 12px 8px;
+}
+.pages{
+    display: flex;
+    justify-content: space-between;
+    margin: 38px 55%;
+}
+.navAccueil, .navWakanda, .navEnigme{
+    margin: 0 15%;
+    color: white;
+    text-decoration: none;
+    font-family: 'beyno';
+    font-size: 21px;
+}
+.navAccueil:hover, .navWakanda:hover{
+    text-decoration: underline;
+}
+.navEnigme{
+    color: #9e91b7;
+    text-decoration: underline;
+}
+
+/*--------------- HERO ---------------*/
+#hero{
+    height: 800px;
+    pointer-events: none;
+}
+.photo{
+    position: absolute;
+    width: 70%;
+    top: -150px;
+}
+.heroDroite{
+    width: 42%;
+    margin-left: 53%;
+    margin-top: 120px;
+}
+.presentation{
+    position: absolute;
+    width: 530px;
+    top: 62%;
+    left: 60%;
+}
+.ligne{
+    position: absolute;
+    left: 49%;
+    top: 92%;
+}
+
+/*--------------- CONTENU ---------------*/
+#contenu{
+    margin-left: 15%;
+    margin-right: 10%;
+}
+h6{
+    font-family: 'wakanda';
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+.alphabet{
+    float: left;
+    width: 50%;
+}
+p{
+    margin: 15px 0;
+}
+p span{
+    font-family: 'wakanda';
+}
+.transcription{
+    margin-bottom: 220px;
+}
+input[type='texte']{
+    width: 520px;
+    height: 56px;
+    border-radius: 30px;
+    background-color: transparent;
+    margin-bottom: 80px;
+    border-color: #F2CEF2;
+}
+input[type='submit']{
+    width: 174px;
+    height: 54px;
+    border-radius: 30px;
+    margin-left: 180px;
+    background-color: #F2CEF2;
+}
+input[type='submit']:hover{
+    box-shadow: #F2CEF2 0px 0px 20px;
+}
+.savaisTu{
+    float: right;
+    width: 50%;
+}
+.texte{
+    width: 575px;
+    text-align: center;
+    position: absolute;
+    top: 144%;
+    right: 14%;
+}
+
+/*--------------- FOOTER ---------------*/
+#footer{
+    color: white;
+    background-image: url("../Illustrations + Logo/All pages/back_footer.png");
+    height: 690px;
+    position:center;
+    margin-top: 44%;
+}
+.gauche{
+    float: left;
+    width: 40%;
+    height: 600px;
+}
+.bulles{
+    position: relative;
+    top: 32%;
+    left: 40%;
+}
+.droite{
+    float: right;
+    width: 60%;
+    height: 600px;
+    display: block;
+}
+h4{
+    margin: 30px 00px;
+}
+.pagesFooter{
+    float: left;
+    margin: 170px;
+}
+.aProposFooter, .wakandaFooter{
+    color: white;
+    text-decoration: none;
+}
+.aProposFooter:hover, .wakandaFooter:hover{
+    text-decoration: underline;
+}
+.retrouvez-nous{
+    float: right;
+    margin: 170px 100px;
+}
+.iconFooter{
+    margin: 0 10px;
+}
+.politique{
+    clear: both;
+    margin-left: 170px;
+}
+
+
+.bleu{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #07338c98;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+.violet{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-color: #df99f277;
+    position: absolute;
+    left: 490px;
+    top: 233%;
+}
+.violet:hover{
+    width: 270px;
+    height: 270px;
+    .marvel{
+        width: 180px;
+    }
+}
+.blanc{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #f2cef2a8;
+    margin-left: 500px;
+    margin-top: 80px;
+}
+.marvel{
+    position: absolute;
+    top: 110px;
+    left: 50px;
+}
